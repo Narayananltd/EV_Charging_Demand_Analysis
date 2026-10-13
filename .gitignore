@@ -1,0 +1,58 @@
+# Python cache files
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+.venv/
+.venv*/
+venv/
+env/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+# Editor and operating system files
+
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python packaging
+
+build/
+dist/
+*.egg-info/
+
+# Test and coverage output
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary and log files
+
+*.log
+*.tmp
+
+# Streamlit secrets
+
+.streamlit/secrets.toml
+
+# Raw source dataset — keep local
+
+data/raw/
+
+# Temporary backup dashboard
+
+dashboard/app_backup.py

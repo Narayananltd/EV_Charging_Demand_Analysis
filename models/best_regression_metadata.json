@@ -1,0 +1,16 @@
+{
+  "target": "Demand",
+  "feature_columns": [
+    "ChargerCompany",
+    "Location",
+    "ChargerType",
+    "StartHour",
+    "StartMonth",
+    "StartWeekday",
+    "StartDayOfMonth",
+    "IsWeekend"
+  ],
+  "best_model": "LightGBM",
+  "selection_metric": "RMSE",
+  "random_state": 42
+}

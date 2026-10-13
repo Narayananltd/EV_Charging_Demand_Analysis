@@ -1,0 +1,22 @@
+Feature,Importance
+ChargerType,0.33391586
+ChargerCompany,0.15603659
+StartHour,0.116012074
+Location_market,0.06420344
+Location_accommodation,0.058508627
+Location_camping,0.044027258
+Location_hotel,0.03936357
+Location_resort,0.03205507
+Location_sightseeing,0.026394138
+Location_apartment,0.021889763
+Location_public parking lot,0.018023787
+Location_public area,0.017205361
+Location_public institution,0.016061628
+Location_company,0.015780939
+StartMonth,0.012005485
+Location_golf,0.0100366
+Location_restaurant,0.006912327
+IsWeekend,0.004140061
+StartDayOfWeek,0.003731834
+StartDayOfMonth,0.0036956265
+Location_bus garage,0.0

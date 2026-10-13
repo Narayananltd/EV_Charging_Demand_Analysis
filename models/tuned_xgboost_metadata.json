@@ -1,0 +1,37 @@
+{
+    "model_name": "Tuned XGBoost",
+    "target": "DemandClass",
+    "positive_class": "High",
+    "feature_columns": [
+        "ChargerCompany",
+        "ChargerType",
+        "StartHour",
+        "StartMonth",
+        "StartDayOfWeek",
+        "StartDayOfMonth",
+        "IsWeekend",
+        "Location_accommodation",
+        "Location_apartment",
+        "Location_bus garage",
+        "Location_camping",
+        "Location_company",
+        "Location_golf",
+        "Location_hotel",
+        "Location_market",
+        "Location_public area",
+        "Location_public institution",
+        "Location_public parking lot",
+        "Location_resort",
+        "Location_restaurant",
+        "Location_sightseeing"
+    ],
+    "best_parameters": {
+        "subsample": 0.8,
+        "reg_lambda": 1,
+        "n_estimators": 100,
+        "min_child_weight": 1,
+        "max_depth": 6,
+        "learning_rate": 0.01,
+        "colsample_bytree": 0.7
+    }
+}

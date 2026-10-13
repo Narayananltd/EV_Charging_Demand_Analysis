@@ -1,0 +1,11 @@
+Feature_Condition,Contribution,Effect
+Location_camping <= 0.00,-5.381159203728725,Decreases prediction
+11.00 < StartHour <= 16.00,-5.183353154465336,Decreases prediction
+ChargerType > 0.00,3.6455135738105167,Increases prediction
+Location_golf <= 0.00,-2.773701482559858,Decreases prediction
+ChargerCompany <= 0.00,-2.5457938220899905,Decreases prediction
+Location_market <= 0.00,2.38190388993372,Increases prediction
+Location_accommodation <= 0.00,-2.3739709986860857,Decreases prediction
+Location_restaurant <= 0.00,-1.6490513170261905,Decreases prediction
+Location_apartment <= 0.00,-1.1952956722762067,Decreases prediction
+Location_bus garage <= 0.00,0.9654979788850875,Increases prediction
